@@ -1,14 +1,14 @@
 import Head from "next/head";
 import Layout from "../components/layout/layout";
 
-const Home = () => {
+const Nosotros = () => {
   return (
     <div>
       <Layout>
-        <h1>Inicio</h1>
+        <h1>Nosotros</h1>
       </Layout>
     </div>
   );
 };
 
-export default Home;
+export default Nosotros;
