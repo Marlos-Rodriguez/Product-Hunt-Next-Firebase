@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import styled from "@emotion/styled";
 
@@ -106,7 +107,9 @@ const DetallesProducto = ({ producto }) => {
           <Imagen src={urlimagen} />
         </div>
         <div>
-          <Titulo>{nombre}</Titulo>
+          <Link href="/productos/[id]" as={`/productos/${id}`}>
+            <Titulo>{nombre}</Titulo>
+          </Link>
           <TextoDescripcion>{descripcion}</TextoDescripcion>
           <Comentarios>
             <div>
