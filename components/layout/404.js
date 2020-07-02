@@ -9,7 +9,7 @@ const Error404 = () => {
         text-align: center;
       `}
     >
-      Producto no Existente
+      Esta pagina no existe o no estas autorizado
     </h1>
   );
 };
