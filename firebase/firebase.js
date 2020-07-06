@@ -1,5 +1,4 @@
 import app from "firebase/app";
-import analytics from "firebase/analytics";
 import "firebase/auth";
 import "firebase/firestore";
 import "firebase/storage";
@@ -11,7 +10,6 @@ class Firebase {
     // Initialize Firebase
     if (!app.apps.length) {
       app.initializeApp(firebaseConfig);
-      app.analytics();
     }
     this.auth = app.auth();
     this.db = app.firestore();
