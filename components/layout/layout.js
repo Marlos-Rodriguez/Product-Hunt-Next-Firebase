@@ -66,6 +66,12 @@ const Layout = (props) => {
       />
       <Head>
         <title>Product Hunt Firebase y Next.js</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Product hunt Clon" key="title" />
+        <meta
+          name="description"
+          content="Product Hunt Clon with Next JS and Firebase"
+        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
