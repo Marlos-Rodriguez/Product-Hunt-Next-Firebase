@@ -15,7 +15,7 @@
     "date-fns": "^2.14.0",
     "firebase": "^7.15.5",
     "firebase-admin": "^8.13.0",
-    "next": "^9.5.2",
+    "next": "^9.5.4",
     "next-build-id": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
